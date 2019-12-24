@@ -75,7 +75,7 @@
   background-color: #050505;
   color:#fff;
   width:100vw;
-  height: 790px;
+  height: auto;
 }
 
 #description{
@@ -86,15 +86,11 @@
   color:#fff;
 }
 
-.card{
-  background-color: rgba(255,255,255,1.0);
-}
-
 .portfolio {
   padding:0pt;
   background-color: #fff;
   width:100vw;
-  height: 790px;
+  height: auto;
 }
 
 #PORTFOLIO_LIST a{
