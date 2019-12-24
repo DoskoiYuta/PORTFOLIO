@@ -1,28 +1,28 @@
 $( function(){
 
 //画面がスクロールする
-  $("#PROFILE").click( function(){
+  $(document).on("click","#PROFILE", function(){
     $('html').animate({
       scrollTop: $(".profile").offset().top-(50-1)
     }, 800);
     return false;
   });
 
-  $("#SKILL").click( function(){
+  $(document).on("click","#SKILL", function(){
     $('html').animate({
     scrollTop: $(".skill").offset().top-(50-1)
   }, 800);
   return false;
   });
 
-  $(".profile-text>a").click( function(){
+  $(document).on("click",".profile-text>a", function(){
     $('html').animate({
     scrollTop: $(".skill").offset().top-(50-1)
   }, 800);
   return false;
   });
 
-  $("#PORTFOLIO").click( function(){
+  $(document).on("click","#PORTFOLIO", function(){
     $('html').animate({
     scrollTop: $(".portfolio").offset().top-(50-1)
   }, 800);
